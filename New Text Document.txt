@@ -1,0 +1,17 @@
+import java.io.*;
+class CansoleInput
+{
+public static void main(String args[])
+{
+String str;
+char ch[];
+Console obj=System.Console();
+System.out.print("ENter the username: ");
+str = obj.readLine();
+System.out.print("Enter the password: ");
+ch=obj.readPassword();
+
+System.out.println("Username: "+str);
+System.out.println("Password: "+ch);
+}
+}
